@@ -11,3 +11,6 @@
 ## xbuild
 * xbuild is a wrapper for `cargo build` that automatically cross-compiles core and other built-in libraries. It's been pre-installed during image build.
 * Build for our custom target (with no underlying OS): `cargo xbuild` (This relies on the "target" param being passed automatically by .cargo/config)
+
+## Create Bootable Disk Image
+* `cargo bootimage`
