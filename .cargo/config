@@ -1,0 +1,4 @@
+# Set a default target parameter for the `cargo build` command.
+# This means we don't have to pass it manually every time.
+[build]
+target = "x86_64-os.json"
