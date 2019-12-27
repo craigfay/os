@@ -15,4 +15,4 @@ RUN cargo install cargo-xbuild
 RUN cargo install bootimage --version "^0.7.7"
 
 # Necessary for running `bootimage`
-RUN rustup component add llvm-tools-preview.
+RUN rustup component add llvm-tools-preview
