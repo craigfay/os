@@ -2,3 +2,7 @@
 # This means we don't have to pass it manually every time.
 [build]
 target = "x86_64-os.json"
+
+[target.'cfg(target_os = "none")']
+# The runner value determines which command to run during "cargo run"
+runner = "bootimage runner"
